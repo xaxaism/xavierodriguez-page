@@ -1,0 +1,164 @@
+/*-----------------------------*/
+/* BASIC SETUP */
+/*-----------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*-----------------------------*/
+/* REUSABLE COMPONENTS */
+/*-----------------------------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+
+/*-----------HEADINGS-------------*/
+
+h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 600px;
+}
+
+/*-----------------------------*/
+/* HEADER */
+/*-----------------------------*/
+
+header { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/header-pic-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.header-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 48%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.header-btn:link,
+.header-btn:visited {
+    display: block;
+    padding: 5px 1px;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* Main navi */
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 70%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #00BFFF;
+}
+
+
+/*-----------------------------*/
+/* Section 2 - PHOTO */
+/*-----------------------------*/
+
+.section-photo {
+    padding-top: 0;
+}
+
+.photo-showcase,
+.photo-showcase-2 {
+    list-style: none;
+    width: 100%;
+}
+
+.photo-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.photo-showcase-2 li {
+    display: inline-block;
+    margin: 0 25%;
+    width: 50%;
+}
+
+.photo-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.photo-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
