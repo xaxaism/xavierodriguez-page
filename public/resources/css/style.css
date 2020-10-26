@@ -88,6 +88,7 @@ header {
     color: rgb(0, 0, 0);
 }
 
+
 /* Main navi */
 .main-nav {
     float: right;
@@ -118,7 +119,7 @@ header {
 
 
 /*-----------------------------*/
-/* Section 2 - PHOTO */
+/* Section 1 - PHOTO */
 /*-----------------------------*/
 
 .section-photo {
@@ -162,3 +163,145 @@ header {
     opacity: 1;
     transform: scale(1.03);
 }
+
+
+/*-----------------------------*/
+/* Section 3 - ABOUT */
+/*-----------------------------*/
+
+.section-about {
+    padding: 0;
+}
+.section-about h1 {
+    padding-top: 150px;
+}
+
+.section-about p {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.section-about a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section-about a:link,
+.section-about a:visited {
+    color: #fff;
+}
+
+.section-about a:hover,
+.section-about a:active {
+    color: #00BFFF;
+}
+
+
+/*-----------------------------*/
+/* Section 4 - CONTACT */
+/*-----------------------------*/
+
+.section-contact {
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/photo-10-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.section-contact h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 150%;
+    padding-top: 370px;
+}
+
+.section-contact li {
+    list-style: none;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 200%;
+}
+
+.section-contact a:link,
+.section-contact a:visited {
+    color: #fff;
+}
+
+.section-contact a:hover,
+.section-contact a:active {
+    color: #00BFFF;
+}
+
+
+/*-----------------------------*/
+/* FOOTER */
+/*-----------------------------*/
+
+footer {
+    background-color: #000;
+    padding: 50px;
+    font-size: 80%;
+    
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+
+.logo-instagram {
+    transition: color 0.2s;
+}
+
+
+.logo-instagram:hover {
+    color: #3f729b;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
