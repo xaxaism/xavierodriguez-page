@@ -59,6 +59,28 @@ h1 {
     padding-top: 600px;
 }
 
+h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 10px;
+    letter-spacing: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
 /*-----------------------------*/
 /* HEADER */
 /*-----------------------------*/
@@ -119,7 +141,7 @@ header {
 
 
 /*-----------------------------*/
-/* Section 1 - PHOTO */
+/* Page 1 Section 1 - ABYSS INTRO */
 /*-----------------------------*/
 
 .section-photo {
@@ -165,8 +187,93 @@ header {
 }
 
 
+
 /*-----------------------------*/
-/* Section 3 - ABOUT */
+/* Page 1 - PHOTOS */
+/*-----------------------------*/
+.section-photos {
+    padding: 0;
+}
+
+.section-photos h1, 
+.section-photos h2, 
+.section-photos h3 {
+    padding-top: 40px;
+}
+
+.section-photos p {
+    text-align: center;
+    padding: 10px 0 15px;
+}
+
+.abyss-link:link,
+.abyss-link:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.abyss-link:hover,
+.abyss-link:active {
+    color:  #00BFFF;
+
+}
+
+.photos-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.photos-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+
+.photos-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.photos-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photos-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+
+/*-----------------------------*/
+/* Page 2 - VIDEO */
+/*-----------------------------*/
+
+.section-video {
+    padding: 0;
+}
+
+.photos-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.photos-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+
+
+/*-----------------------------*/
+/* Page 3 - ABOUT */
 /*-----------------------------*/
 
 .section-about {
@@ -198,7 +305,7 @@ header {
 
 
 /*-----------------------------*/
-/* Section 4 - CONTACT */
+/* Page 4 - CONTACT */
 /*-----------------------------*/
 
 .section-contact {
