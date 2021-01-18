@@ -186,8 +186,6 @@ header {
     transform: scale(1.03);
 }
 
-
-
 /*-----------------------------*/
 /* Page 1 - PHOTOS */
 /*-----------------------------*/
@@ -259,6 +257,10 @@ header {
     padding: 0;
 }
 
+.section-video iframe {
+    width: 100%;
+}
+
 .photos-showcase {
     list-style: none;
     width: 100%;
@@ -273,7 +275,20 @@ header {
 
 
 /*-----------------------------*/
-/* Page 3 - ABOUT */
+/* Page 3 - SHOP */
+/*-----------------------------*/
+
+.section-shop {
+    padding: 0;
+}
+
+
+
+
+
+
+/*-----------------------------*/
+/* Page 4 - ABOUT */
 /*-----------------------------*/
 
 .section-about {
@@ -305,7 +320,7 @@ header {
 
 
 /*-----------------------------*/
-/* Page 4 - CONTACT */
+/* Page 5 - CONTACT */
 /*-----------------------------*/
 
 .section-contact {
